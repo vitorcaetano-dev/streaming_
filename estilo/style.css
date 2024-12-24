@@ -1,0 +1,95 @@
+@charset "UTF-8";
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav#nav1 {
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+main > section#principal {
+    background-color: antiquewhite;
+    width: 100vw;
+    padding: 20px;
+    background-image: url(https://www.papodecinema.com.br/wp-content/uploads/2016/06/20181126-banner.jpg);
+    background-size: cover;
+    background-position: center top ;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 1000px black inset;
+    
+
+}
+
+
+section#principal > div{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.353);
+    margin-top: 200px;
+    width: 350px;
+    padding: 10px;
+    
+}
+section#principal  h1 {
+    text-align: center;
+    font-variant: small-caps;
+}
+p {
+    
+}
+section#principal div#botoes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+section#outros > nav{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+section#outros > nav  button{
+    background-color: black;
+    border: 0.4px solid white;
+    color: white;
+    padding: 7px;
+}
+
+div#catalogo {
+    margin-top:20px ;
+ display: flex;
+ width: 99vw;
+ justify-content: space-evenly;
+ align-items: center;
+ align-content: start;
+ flex-flow: row wrap;
+}
+
+div#catalogo > div {
+    margin-top: 10px;
+    width: 230px;
+    height: 130px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 1px solid black;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-variant: small-caps;
+}
+div#catalogo > div#itens1 {
+    background-color: black;
+    background-image: url(https://www.papodecinema.com.br/wp-content/uploads/2012/06/20190215-banner.jpg);
+}
